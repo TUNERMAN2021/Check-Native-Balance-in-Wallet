@@ -77,11 +77,15 @@ def load_proxies(file_path='proxy.txt'):
         logger.error(f"Ошибка при чтении {file_path}: {e}")
         return []
 
-# Проверка валидности адреса
+# Проверка валидности адреса и преобразование в checksum
 def is_valid_address(address):
-    is_valid = Web3.is_address(address)
-    logger.info(f"Проверка адреса {address}: {'валиден' if is_valid else 'невалиден'}")
-    return is_valid
+    try:
+        checksum_address = Web3.to_checksum_address(address)
+        logger.info(f"Проверка адреса {address}: валиден (преобразован в {checksum_address})")
+        return checksum_address
+    except Exception as e:
+        logger.error(f"Проверка адреса {address}: невалиден ({e})")
+        return None
 
 # Подключение к RPC
 def connect_to_rpc(network, proxy=None):
@@ -131,7 +135,8 @@ def check_balances(wallets, proxies):
     current_proxy = next(proxy_cycle)
 
     for wallet in wallets:
-        if not is_valid_address(wallet):
+        checksum_address = is_valid_address(wallet)
+        if not checksum_address:
             continue
 
         for network, column in [
@@ -147,9 +152,9 @@ def check_balances(wallets, proxies):
             while attempts < max_attempts:
                 w3, rpc_url = connect_to_rpc(network, current_proxy)
                 if w3:
-                    balance = get_balance(w3, wallet, network)
+                    balance = get_balance(w3, checksum_address, network)
                     if balance is not None:
-                        results[wallet][column] = balance
+                        results[wallet][column] = float(balance)  # Преобразуем в float для Excel
                         break
                     else:
                         logger.warning(f"Смена RPC для {network} (попытка {attempts + 1}/{max_attempts})")
